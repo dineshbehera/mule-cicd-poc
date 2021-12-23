@@ -1,1 +1,1 @@
-mvn clean deploy -DmuleDeploy -Danypoint.username=<<username>> -Danypoint.password=<<amypoint password>> -Denvironment=Sandbox -Dapp.name=abcd1234 -Dworkers=1
+mvn clean deploy -DmuleDeploy -Danypoint_username=<<username>> -Danypoint_password=<<amypoint password>> -Denvironment=Sandbox -Dapp_name=abcd1234 -Dworkers=1
