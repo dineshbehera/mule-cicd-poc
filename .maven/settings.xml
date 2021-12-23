@@ -8,8 +8,8 @@
     </server>
     <server>
       <id>anypoint-exchange-v2</id>
-      <username>${env.PLATFORM_USERNAME}</username>
-      <password>${env.PLATFORM_PASSWORD}</password>
+      <username>${env.anypoint_username}</username>
+      <password>${env.anypoint_password}</password>
     </server>
   </servers>
   <pluginGroups>
