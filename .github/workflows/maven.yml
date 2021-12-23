@@ -16,7 +16,6 @@ jobs:
 
     steps:
     - name: Checkout repositort
-      uses: actions/setup-java@v2
     - name: Build and deploy  with mule maven
       run: mvn clean -B package deploy -DmuleDeploy -s .maven/settings.xml
       
