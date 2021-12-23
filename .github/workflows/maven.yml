@@ -21,11 +21,11 @@ jobs:
       run: mvn clean -B package deploy -DmuleDeploy -s .maven/settings.xml
       
       env:
-        anypoint_username: ${{anypoint_username}}
-        anypoint_password: ${{anypoint_password}}
-        app_name: ${{app_name}}
-        nexus_username: ${{nexus_username}}
-        nexus_password: ${{nexus_password}}
+        anypoint_username: ${{secrets.anypoint_username}}
+        anypoint_password: ${{secrets.anypoint_password}}
+        app_name: ${{secrets.app_name}}
+        nexus_username: ${{secrets.nexus_username}}
+        nexus_password: ${{secrets.nexus_password}}
         
         
     
